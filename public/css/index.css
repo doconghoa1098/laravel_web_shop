@@ -1,0 +1,510 @@
+{margin: 0; padding: 0;}
+html,body
+{
+    width: 100%;
+    height: 100%;
+    /*position: absolute;*/
+    /*font-family:;*/
+  /*  background-color:WhiteSmoke; */
+}
+.thanhtren
+{
+    box-shadow: 1px 2px 5px #666;
+}
+/*------------------------header---------------------------*/
+
+
+#header{
+  margin: auto;
+  height:50px;
+  background-color: #d9534f;
+
+}
+.logo
+{
+    display: block;
+    width: 160px;
+    height: 50px;
+    float: right;
+    box-shadow: 2px 2px 5px #666;
+    cursor: pointer;
+    position: absolute;
+    list-style: none;
+
+}
+.logo a
+{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.logo h4
+{
+    float: right;
+    padding: 9px 20px 0px 0px;
+
+}
+.logo img
+{
+    width: 30px;
+    height: 30px;
+    margin-top: 12px;
+    margin-left: 25px;
+
+
+}
+.timkiem{
+    margin-top: 12px;
+    margin-left: 20%;
+    display: block;
+
+}
+.timkiem button {
+
+}
+.timkiem img
+{
+    width: 20px;
+    height: 20px;
+
+}
+.timkiem input
+{
+    width:500px;
+    border-radius: 0px;
+    margin: 0px 0px 0px 10px;
+    padding: 0px 20px;
+}
+.timkiem button
+{
+    font-size: 10px;
+    background: #66FF66;       /*   background:  #ffffff;   */
+    transition: 0.4s;
+}
+
+#header-nav-top #headermenu
+{
+    position: relative;
+    margin-top:20px;
+}
+
+#headermenu b{color: #FF33FF;}
+#headermenu a{color: #00FF00;}
+#headermenu span{color: #333366;}
+
+
+
+
+#header-nav-top li:hover a{
+    text-decoration: none;
+}
+
+
+
+
+.dropdown{
+   position: relative;
+   display: inline-block;
+   cursor: pointer;
+
+
+}
+.dropdown-content
+{
+   display: none;
+   position: absolute;
+   width: auto;
+   z-index: 1;
+   list-style: none;
+   cursor: pointer;
+
+
+}
+.dropdown:hover .dropdown-content
+{
+   display: block;
+   background-color: #d9534f;
+   cursor: pointer;
+   border: 1px solid #FFF;
+}
+.dropdown-item:hover
+{
+     color:#FFF;
+     background:#FF00FF;
+     cursor: pointer;
+
+}
+
+
+
+
+/*------------------------Menu-------------------------*/
+.menu
+{
+    height: 52px;
+    background:#d9534f;
+    font-size: 14px;
+}
+.menu ul
+{
+    width:1050px;
+    height: 39px;
+    background: #2b2b2b2b;
+    margin: auto;
+    padding: 0px;
+    list-style-type: none;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+.menu li
+{
+    float: left;
+    width: 150px;
+    height: 40px;
+    display: inline-block;
+    line-height: 40px;
+    position: relative;
+    transition: 0.4s;
+}
+
+.menu li img
+{
+    left: 15px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 10px;
+    cursor: pointer;
+}
+.menu li a
+{
+    text-decoration: none;
+    color: white;
+    padding-left: 20px;
+    line-height: 42px;
+    font-weight: bold;
+    display: block;
+    transition: 0.4s;
+}
+.menu li:hover
+{
+    display: block;
+    background:#373a3c;
+    z-index: 2;
+}
+/*-----------------slide -----------------*/
+.slide
+{
+
+    width: 100% /*1000px*/;
+    height: 450px;
+    margin: auto;
+
+}
+.slide .active a>img
+{
+    width: 100%;
+    transition: 0.4s;
+    height:450px;
+}
+
+
+
+/*---------San pham --------------*/
+
+ /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: auto;margin-top: 10px;}
+
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: auto;
+    }
+
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+
+          }
+
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;}
+    }
+
+
+
+.card:hover
+{
+    transition: 0.4s;
+    box-shadow: 2px 2px 10px#666;
+}
+
+.card a
+{
+  display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+
+.sanpham a {text-decoration: none; margin-top:10px;}
+.sanpham a:hover {text-decoration: none; }
+
+
+
+.info-item {
+    text-align: center;
+    border-top: 1px solid #e3e3e3;
+    padding-top: 5px;
+    padding-bottom: 5px;
+   /* background-color: #2222; */
+    height: 100PX;
+
+}
+
+.price
+{
+    color: #ea3a3c;
+}
+
+.item-product
+{
+    position: relative;
+    float: left;
+
+}
+
+
+
+/*--------------------chitietsp------------------------*/
+
+/*----------*/
+
+/*----------*/
+.tensp
+{
+    height: 80px;
+}
+.tensp h4
+{
+    font-size: 19px;
+    padding: 10px 15px 10px 32px;
+}
+/*--------------*/
+/*-----------------*/
+
+.mua button a
+{
+    text-decoration: none;
+    color: white;
+}
+.mua .m1
+{
+    margin-bottom: 0px;
+    font-size: 20px;
+
+}
+.mua span
+{
+    font-size: 14px;
+    padding:0px;
+
+}
+.mua .m2
+{
+    margin: 20px;
+    font-size: 14px;
+}
+/*-----------*/
+.camket ul
+{
+    font-size: 13px;
+    list-style-type: none;
+    line-height: 7px;
+}
+.camket i
+{
+    display: block;
+    font-size: 13px;
+    color: #d9534fe8;
+    margin: 10px 10px -10px -20px;
+}
+/*----------------------*/
+.thongso
+{
+    font-size: 14px;
+    display: inline-table;
+    width: 55%;
+}
+.thongso p
+{
+    padding-left: 20px;
+    font-size: 14px;
+}
+.thongso label
+{
+    font-weight: bold;
+}
+.thongso span
+{
+    color: green;
+}
+.anh
+{
+
+    float: right;
+}
+.anh img
+{
+    margin-left: 20px;
+    width: 70%;
+    height: 200px;
+    transition: 0.4s;
+}
+.anh img:hover
+{
+     transform: scale(1.2);
+     transition: 0.4s;
+}
+hr
+{
+    border-color: #d9534f;
+}
+
+
+
+
+
+/* -----category----------------*/
+
+.hangsanxuat li
+{
+    list-style-type: none;
+
+}
+.hangsanxuat li
+{
+    font-size: 15px;
+    line-height: 25px;
+    display: block;
+
+}
+.hangsanxuat a:hover
+{
+    color: #373a3ca6;
+    transition: 0.4s;
+    text-decoration: none;
+}
+.hangsanxuat a
+{
+    text-decoration: none;
+    color: #373a3c;
+}
+.hangsanxuat span
+{
+    padding-left: 15px;
+}
+.mucgia ul
+{
+    list-style-type: none;
+}
+.mucgia li
+{
+    font-size: 15px;
+    line-height: 25px;
+    display: block;
+
+}
+.mucgia a:hover
+{
+    color: #373a3ca6;
+    transition: 0.4s;
+}
+.mucgia a
+{
+    text-decoration: none;
+    color: #373a3c;
+}
+.mucgia span
+{
+    padding-left: 15px;
+}
+.phai
+{
+    
+}
+.mucdich a
+{
+    margin:-9px 10px 5px 0px;
+}
+.sapsep
+{
+    margin: -9px 0px 0px 80px;
+    float: right;
+}
+
+
+#qty {
+   width: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------------footer-------------------------------*/
+.footer
+{
+    height: 185px;
+    background:  #d9534f;
+}
+.footer img
+{
+    margin-left: 20%;
+    width: 25px;
+    height:25px;
+}
+.footer h5
+{
+    font-size: 15px;
+    color: white;
+    padding: 05px 10px 10px 10px ;
+
+}
+.footer .cot
+{
+    background-color: #2b2b2b2b;
+    /*height: 130px;*/
+}
+.footer .about p
+{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+
